@@ -109,7 +109,7 @@ Create a `.env` file in the project root:
 
 ```env
 # API Configuration
-API_KEY=your_rapidapi_key
+API_KEY=your_api_football_key
 API_HOST=https://v3.football.api-sports.io/standings
 
 # Database Configuration
@@ -161,7 +161,6 @@ epl-standings/
 ├── requirements.txt           # Python dependencies
 ├── .env                       # Configuration (not in git)
 ├── .gitignore
-├── logs/                      # Pipeline logs
 └── README.md                 # This file
 ```
 
@@ -223,5 +222,5 @@ MIT License - feel free to use this code for your own learning and projects.
 
 ## Contact
 
-Built by [Your Name]
+Built by [Walid Kambagha]
 [GitHub](https://github.com/msomali) • [LinkedIn](https://linkedin.com/in/walidaak)
