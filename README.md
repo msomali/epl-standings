@@ -131,7 +131,7 @@ jupyter notebook epl.ipynb
 **Option 2: Python Script**
 
 ```bash
-python epl_etl.py
+python epl.py
 ```
 
 ---
@@ -157,11 +157,11 @@ The pipeline includes validation at each stage:
 ```
 epl-standings/
 ├── epl.ipynb                  # Jupyter notebook (exploration)
-├── epl_etl.py                 # Production ETL script
+├── epl.py.                    # Production ETL script
 ├── requirements.txt           # Python dependencies
 ├── .env                       # Configuration (not in git)
 ├── .gitignore
-└── README.md                 # This file
+└── README.md                  # This file
 ```
 
 ---
@@ -198,7 +198,7 @@ epl-standings/
 If you're building something similar, these resources helped me:
 
 - [SQLAlchemy Documentation](https://docs.sqlalchemy.org/)
-- [API-Football Docs](https://www.api-football.com/documentation-v3)
+- [API-Football Docs](https://www.api-football.com/documentation-v3#section/Introduction)
 - [PostgreSQL Upsert (ON CONFLICT)](https://www.postgresql.org/docs/current/sql-insert.html)
 - [Pandas DataFrame Guide](https://pandas.pydata.org/docs/user_guide/index.html)
 
